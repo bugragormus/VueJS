@@ -19,7 +19,7 @@
             <router-link class="nav-link" to="/">Home</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/detail">Detail</router-link>
+            <router-link class="nav-link" to="/food-concepts">Food Concepts</router-link>
           </li>
         </ul>
       </div>

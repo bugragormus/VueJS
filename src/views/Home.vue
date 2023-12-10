@@ -7,7 +7,7 @@
     </div>
     <div class="carousel-inner" style="max-height: 600px; overflow: hidden;">
       <div class="carousel-item active">
-        <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="d-block w-100" alt="sikiş">
+        <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block" :style="{ top: captionStyle }">
           <h5 :style="{backgroundColor: captionBackground}">First slide label</h5>
           <p :style="{backgroundColor: captionBackground}">Some representative placeholder content for the first slide.</p>
