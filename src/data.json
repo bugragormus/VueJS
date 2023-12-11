@@ -1,0 +1,801 @@
+{
+  "concepts": [
+    {
+      "id": 1,
+      "slug": "christmas-dishes",
+      "concept": "Christmas Dishes",
+      "recipes": [
+        {
+          "slug": "roasted-turkey",
+          "recipe-image": "roasted-turkey.jpg",
+          "name": "Perfect Roasted Turkey",
+          "description": "Celebrate the holiday season with a perfectly roasted turkey.",
+          "ingredients": [
+            "1 whole turkey",
+            "2 cups chicken broth",
+            "1/2 cup unsalted butter, melted",
+            "4 cloves garlic, minced",
+            "Salt and pepper to taste",
+            "2 sprigs of rosemary"
+          ],
+          "recipe": "Preheat the oven to 350°F. Rinse the turkey and pat it dry. Mix melted butter, minced garlic, salt, and pepper. Rub this mixture over and inside the turkey. Place rosemary sprigs inside the cavity. Roast until golden brown, basting with chicken broth every 30 minutes. Allow to rest before carving."
+        },
+        {
+          "slug": "holiday-ham",
+          "recipe-image": "holiday-ham.jpg",
+          "name": "Holiday Glazed Ham",
+          "description": "Add a touch of sweetness to your festive table with this holiday glazed ham.",
+          "ingredients": [
+            "1 whole ham",
+            "1 cup brown sugar",
+            "1/2 cup Dijon mustard",
+            "1/4 cup maple syrup",
+            "Cloves for garnish"
+          ],
+          "recipe": "Score the ham and stud with cloves. Mix brown sugar, Dijon mustard, and maple syrup to create a glaze. Brush the glaze over the ham and bake until caramelized. Garnish with additional cloves for a festive presentation."
+        },
+        {
+          "slug": "festive-cookies",
+          "recipe-image": "festive-cookies.jpg",
+          "name": "Festive Holiday Cookies",
+          "description": "Spread joy with these delightful and festive holiday cookies.",
+          "ingredients": [
+            "2 1/2 cups all-purpose flour",
+            "1 teaspoon baking powder",
+            "1/2 teaspoon salt",
+            "1 cup unsalted butter, softened",
+            "1 cup granulated sugar",
+            "2 large eggs",
+            "1 teaspoon vanilla extract",
+            "Colored icing and sprinkles for decoration"
+          ],
+          "recipe": "In a bowl, whisk together flour, baking powder, and salt. In another bowl, cream together butter and sugar. Add eggs and vanilla extract, then gradually mix in the dry ingredients. Roll out the dough, cut into festive shapes, and bake until golden. Decorate with colored icing and sprinkles."
+        },
+        {
+          "slug": "cranberry-sauce",
+          "recipe-image": "cranberry-sauce.jpg",
+          "name": "Homemade Cranberry Sauce",
+          "description": "Enhance your holiday feast with the vibrant flavors of homemade cranberry sauce.",
+          "ingredients": [
+            "1 bag fresh cranberries",
+            "1 cup orange juice",
+            "1 cup granulated sugar",
+            "Zest of one orange",
+            "1 cinnamon stick"
+          ],
+          "recipe": "Combine cranberries, orange juice, granulated sugar, orange zest, and a cinnamon stick in a saucepan. Simmer until the cranberries burst and the sauce thickens. Cool before serving for a perfect balance of sweet and tart."
+        },
+        {
+          "slug": "gingerbread-house",
+          "recipe-image": "gingerbread-house.jpg",
+          "name": "Gingerbread House",
+          "description": "Create a whimsical centerpiece with a charming gingerbread house.",
+          "ingredients": [
+            "3 1/4 cups all-purpose flour",
+            "1 tablespoon ground ginger",
+            "1 tablespoon ground cinnamon",
+            "1 cup unsalted butter, softened",
+            "1 cup brown sugar",
+            "1 cup molasses",
+            "Assorted candies for decoration"
+          ],
+          "recipe": "Mix flour, ginger, and cinnamon in a bowl. In another bowl, cream together butter, brown sugar, and molasses. Gradually add dry ingredients to form the dough. Roll out the dough, cut out house shapes, and bake. Assemble the house and decorate with assorted candies for a festive touch."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "valentines-day-specials",
+      "concept": "Valentine's Day Specials",
+      "recipes": [
+        {
+          "slug": "chocolate-covered-strawberries",
+          "recipe-image": "chocolate-covered-strawberries.jpg",
+          "name": "Chocolate Covered Strawberries",
+          "description": "Create a romantic atmosphere with these luscious chocolate-covered strawberries.",
+          "ingredients": [
+            "1 pound fresh strawberries",
+            "8 ounces dark chocolate, melted",
+            "1/4 cup white chocolate, melted"
+          ],
+          "recipe": "Wash and dry strawberries. Dip each strawberry into melted dark chocolate, allowing excess to drip off. Place on a parchment-lined tray and drizzle with melted white chocolate. Chill until the chocolate hardens, then enjoy with your loved one."
+        },
+        {
+          "slug": "heart-shaped-ravioli",
+          "recipe-image": "heart-shaped-ravioli.jpg",
+          "name": "Heart-Shaped Ravioli",
+          "description": "Serve up love with these heart-shaped ravioli filled with delicious ricotta and spinach.",
+          "ingredients": [
+            "2 cups all-purpose flour",
+            "3 large eggs",
+            "1 cup ricotta cheese",
+            "1 cup chopped spinach, cooked and drained",
+            "1/2 cup grated Parmesan cheese",
+            "Salt and pepper to taste",
+            "Tomato sauce for serving"
+          ],
+          "recipe": "Make pasta dough by combining flour and eggs. Roll out the dough and cut heart shapes. Mix ricotta, cooked spinach, Parmesan, salt, and pepper for the filling. Place a spoonful of filling on half the hearts, top with another heart, and seal the edges. Cook in boiling water until the ravioli float. Serve with tomato sauce."
+        },
+        {
+          "slug": "red-velvet-cupcakes",
+          "recipe-image": "red-velvet-cupcakes.jpg",
+          "name": "Red Velvet Cupcakes",
+          "description": "Indulge in the rich and velvety goodness of red velvet cupcakes with cream cheese frosting.",
+          "ingredients": [
+            "2 1/2 cups all-purpose flour",
+            "1 1/2 cups granulated sugar",
+            "1 teaspoon baking powder",
+            "1 teaspoon baking soda",
+            "1 teaspoon cocoa powder",
+            "1 1/2 cups vegetable oil",
+            "1 cup buttermilk",
+            "2 large eggs",
+            "2 tablespoons red food coloring",
+            "1 teaspoon vanilla extract",
+            "Cream cheese frosting for topping"
+          ],
+          "recipe": "In a bowl, whisk together flour, sugar, baking powder, baking soda, and cocoa powder. In another bowl, mix oil, buttermilk, eggs, red food coloring, and vanilla extract. Combine wet and dry ingredients. Pour batter into cupcake liners and bake. Once cooled, frost with cream cheese frosting."
+        },
+        {
+          "slug": "strawberry-champagne-cocktail",
+          "recipe-image": "strawberry-champagne-cocktail.jpg",
+          "name": "Strawberry Champagne Cocktail",
+          "description": "Toast to love with a sparkling strawberry champagne cocktail.",
+          "ingredients": [
+            "Fresh strawberries",
+            "Champagne or sparkling wine",
+            "1 tablespoon sugar",
+            "Lemon twist for garnish"
+          ],
+          "recipe": "Muddle fresh strawberries with sugar in a glass. Top with champagne or sparkling wine. Garnish with a twist of lemon for a refreshing and romantic beverage."
+        },
+        {
+          "slug": "love-letter-cookies",
+          "recipe-image": "love-letter-cookies.jpg",
+          "name": "Love Letter Cookies",
+          "description": "Express your feelings with these charming love letter-shaped cookies.",
+          "ingredients": [
+            "2 1/2 cups all-purpose flour",
+            "1 cup unsalted butter, softened",
+            "1 cup powdered sugar",
+            "1 large egg",
+            "1 teaspoon vanilla extract",
+            "Strawberry jam for filling"
+          ],
+          "recipe": "Cream together butter and powdered sugar. Add egg and vanilla extract, then gradually mix in flour. Roll out the dough and cut into love letter shapes. Bake until golden. Once cooled, spread strawberry jam between two cookies for a sweet love note."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "iftar-meals",
+      "concept": "Iftar Meals",
+      "recipes": [
+        {
+          "slug": "iftar-platter",
+          "recipe-image": "iftar-platter.jpg",
+          "name": "Iftar Platter",
+          "description": "Break your fast with a delightful and nutritious iftar platter.",
+          "ingredients": [
+            "Hummus",
+            "Falafel",
+            "Stuffed Grape Leaves",
+            "Dates",
+            "Labneh",
+            "Olives",
+            "Pita bread"
+          ],
+          "recipe": "Arrange a variety of iftar delights on a platter, including hummus, falafel, stuffed grape leaves, dates, labneh, olives, and pita bread. Share this delicious and satisfying meal with family and friends during the holy month of Ramadan."
+        },
+        {
+          "slug": "harira-soup",
+          "recipe-image": "harira-soup.jpg",
+          "name": "Harira Soup",
+          "description": "Enjoy a traditional Moroccan harira soup to break your fast.",
+          "ingredients": [
+            "1/2 cup red lentils",
+            "1/2 cup chickpeas, cooked",
+            "1/2 cup rice",
+            "1 onion, chopped",
+            "2 tomatoes, diced",
+            "2 tablespoons tomato paste",
+            "1/4 cup chopped fresh cilantro",
+            "1/4 cup chopped fresh parsley",
+            "1 teaspoon ground cumin",
+            "1 teaspoon ground coriander",
+            "1/2 teaspoon cinnamon",
+            "Salt and pepper to taste",
+            "Lemon wedges for serving"
+          ],
+          "recipe": "In a pot, combine red lentils, cooked chickpeas, rice, chopped onion, diced tomatoes, tomato paste, cilantro, parsley, cumin, coriander, cinnamon, salt, and pepper. Add enough water to cover the ingredients. Simmer until lentils and rice are tender. Serve with lemon wedges."
+        },
+        {
+          "slug": "chicken-shawarma",
+          "recipe-image": "chicken-shawarma.jpg",
+          "name": "Chicken Shawarma",
+          "description": "Savor the flavors of a classic chicken shawarma for iftar.",
+          "ingredients": [
+            "1 lb boneless, skinless chicken thighs",
+            "1 cup plain yogurt",
+            "3 cloves garlic, minced",
+            "1 teaspoon ground cumin",
+            "1 teaspoon ground coriander",
+            "1 teaspoon ground paprika",
+            "1 teaspoon ground turmeric",
+            "Salt and pepper to taste",
+            "Pita bread and tahini sauce for serving"
+          ],
+          "recipe": "Marinate chicken thighs in yogurt, minced garlic, cumin, coriander, paprika, turmeric, salt, and pepper. Refrigerate for at least 1 hour. Grill or pan-cook until fully cooked. Slice and serve in pita bread with tahini sauce."
+        },
+        {
+          "slug": "ramadan-dessert",
+          "recipe-image": "ramadan-dessert.jpg",
+          "name": "Ramadan Dessert",
+          "description": "End your iftar on a sweet note with a special Ramadan dessert.",
+          "ingredients": [
+            "1 cup semolina",
+            "1 cup sugar",
+            "1 cup yogurt",
+            "1/2 cup melted butter",
+            "1 teaspoon baking powder",
+            "1/2 cup desiccated coconut",
+            "1/4 cup blanched almonds",
+            "1/4 cup raisins",
+            "Rose water for flavor (optional)",
+            "Syrup: 1 cup sugar, 1/2 cup water, 1 tablespoon lemon juice"
+          ],
+          "recipe": "Combine semolina, sugar, yogurt, melted butter, baking powder, desiccated coconut, almonds, raisins, and rose water (if using). Mix well and pour into a greased pan. Bake until golden brown. Meanwhile, make a syrup by boiling sugar, water, and lemon juice. Pour the hot syrup over the baked dessert. Allow it to absorb the syrup before cutting into squares."
+        },
+        {
+          "slug": "stuffed-dates",
+          "recipe-image": "stuffed-dates.jpg",
+          "name": "Stuffed Dates",
+          "description": "Satisfy your sweet tooth with these stuffed dates filled with nuts and honey.",
+          "ingredients": [
+            "Medjool dates",
+            "Assorted nuts (almonds, walnuts, pistachios)",
+            "Honey",
+            "Sea salt for garnish"
+          ],
+          "recipe": "Pit the dates and stuff them with assorted nuts. Drizzle honey over the stuffed dates and sprinkle with sea salt for a delightful combination of sweetness and crunch."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "exotic-dishes",
+      "concept": "Exotic Dishes",
+      "recipes": [
+        {
+          "slug": "coconut-curry-chicken",
+          "recipe-image": "coconut-curry-chicken.jpg",
+          "name": "Coconut Curry Chicken",
+          "description": "Take a culinary journey with this flavorful and aromatic coconut curry chicken.",
+          "ingredients": [
+            "2 lbs chicken thighs, bone-in and skin-on",
+            "1 can coconut milk",
+            "2 tablespoons red curry paste",
+            "1 onion, sliced",
+            "3 cloves garlic, minced",
+            "1 tablespoon ginger, grated",
+            "Fresh cilantro for garnish"
+          ],
+          "recipe": "In a pot, sauté sliced onions until golden brown. Add minced garlic, grated ginger, and red curry paste. Stir in chicken thighs and cook until browned. Pour in coconut milk and simmer until the chicken is cooked through. Garnish with fresh cilantro before serving."
+        },
+        {
+          "slug": "sushi-rolls",
+          "recipe-image": "sushi-rolls.jpg",
+          "name": "Assorted Sushi Rolls",
+          "description": "Experience the art of sushi-making with these delicious assorted sushi rolls.",
+          "ingredients": [
+            "Nori seaweed sheets",
+            "Sushi rice",
+            "Assorted fish (tuna, salmon, shrimp)",
+            "Avocado, sliced",
+            "Cucumber, julienned",
+            "Soy sauce and pickled ginger for serving"
+          ],
+          "recipe": "Place a nori sheet on a bamboo sushi mat. Wet your hands and spread sushi rice over the nori, leaving a border at the top. Arrange thin slices of fish, avocado, and cucumber on the rice. Roll tightly using the mat. Slice into bite-sized pieces. Serve with soy sauce and pickled ginger."
+        },
+        {
+          "slug": "mango-sticky-rice",
+          "recipe-image": "mango-sticky-rice.jpg",
+          "name": "Mango Sticky Rice",
+          "description": "Indulge in the sweetness of mango sticky rice, a popular Thai dessert.",
+          "ingredients": [
+            "1 cup glutinous rice",
+            "1 can coconut milk",
+            "1/2 cup sugar",
+            "1/2 teaspoon salt",
+            "Ripe mango, sliced",
+            "Toasted sesame seeds for garnish"
+          ],
+          "recipe": "Rinse and soak glutinous rice for at least 30 minutes. Steam until tender. In a saucepan, heat coconut milk, sugar, and salt until dissolved. Mix coconut milk with the steamed rice. Let it sit for 15 minutes. Serve with sliced ripe mango and sprinkle with toasted sesame seeds."
+        },
+        {
+          "slug": "brazilian-feijoada",
+          "recipe-image": "brazilian-feijoada.jpg",
+          "name": "Brazilian Feijoada",
+          "description": "Experience the rich and hearty flavors of Brazil with feijoada, a traditional black bean stew.",
+          "ingredients": [
+            "1 lb black beans, soaked overnight",
+            "1 lb pork shoulder, diced",
+            "1/2 lb chorizo sausage, sliced",
+            "1/2 lb smoked sausage, sliced",
+            "1 onion, chopped",
+            "4 cloves garlic, minced",
+            "2 bay leaves",
+            "Orange slices for garnish",
+            "White rice for serving"
+          ],
+          "recipe": "In a large pot, combine soaked black beans, diced pork shoulder, sliced chorizo, sliced smoked sausage, chopped onion, minced garlic, and bay leaves. Simmer until the beans and meat are tender. Serve over white rice and garnish with orange slices."
+        },
+        {
+          "slug": "indian-butter-chicken",
+          "recipe-image": "indian-butter-chicken.jpg",
+          "name": "Indian Butter Chicken",
+          "description": "Delight your taste buds with the creamy and flavorful Indian butter chicken.",
+          "ingredients": [
+            "2 lbs boneless, skinless chicken thighs",
+            "1 cup plain yogurt",
+            "2 tablespoons garam masala",
+            "1 tablespoon ground turmeric",
+            "1 tablespoon ground cumin",
+            "1 tablespoon chili powder",
+            "1 tablespoon ginger-garlic paste",
+            "1/2 cup unsalted butter",
+            "1 can tomato puree",
+            "1 cup heavy cream",
+            "Fresh cilantro for garnish"
+          ],
+          "recipe": "Marinate chicken thighs in a mixture of yogurt, garam masala, turmeric, cumin, chili powder, and ginger-garlic paste. Grill or cook in a pan until fully cooked. In a separate pot, melt butter and add tomato puree. Simmer until the sauce thickens. Stir in heavy cream and cooked chicken. Garnish with fresh cilantro before serving."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "breakfast-delights",
+      "concept": "Breakfast Delights",
+      "recipes": [
+        {
+          "slug": "classic-pancakes",
+          "recipe-image": "classic-pancakes.jpg",
+          "name": "Classic Pancakes",
+          "description": "Start your day right with these fluffy and classic pancakes.",
+          "ingredients": [
+            "1 cup all-purpose flour",
+            "2 tablespoons sugar",
+            "1 teaspoon baking powder",
+            "1/2 teaspoon salt",
+            "1 cup milk",
+            "1 large egg",
+            "2 tablespoons unsalted butter, melted"
+          ],
+          "recipe": "In a bowl, whisk together flour, sugar, baking powder, and salt. In a separate bowl, mix milk, egg, and melted butter. Combine wet and dry ingredients, stirring until just combined. Cook spoonfuls of batter on a griddle until bubbles form, then flip and cook until golden brown. Serve with your favorite toppings."
+        },
+        {
+          "slug": "avocado-toast",
+          "recipe-image": "avocado-toast.jpg",
+          "name": "Avocado Toast with Poached Eggs",
+          "description": "Elevate your breakfast with this trendy and nutritious avocado toast topped with poached eggs.",
+          "ingredients": [
+            "2 slices whole-grain bread, toasted",
+            "1 ripe avocado, mashed",
+            "2 large eggs, poached",
+            "Red pepper flakes for garnish",
+            "Salt and pepper to taste"
+          ],
+          "recipe": "Spread mashed avocado evenly on toasted bread slices. Top each with a poached egg. Season with salt, pepper, and red pepper flakes for a kick. Enjoy this simple yet satisfying breakfast."
+        },
+        {
+          "slug": "blueberry-smoothie-bowl",
+          "recipe-image": "blueberry-smoothie-bowl.jpg",
+          "name": "Blueberry Smoothie Bowl",
+          "description": "Fuel your morning with a refreshing and vibrant blueberry smoothie bowl.",
+          "ingredients": [
+            "1 cup frozen blueberries",
+            "1 banana, sliced and frozen",
+            "1/2 cup Greek yogurt",
+            "1/4 cup almond milk",
+            "Granola, chia seeds, and fresh berries for topping"
+          ],
+          "recipe": "Blend frozen blueberries, frozen banana, Greek yogurt, and almond milk until smooth. Pour into a bowl and top with granola, chia seeds, and fresh berries for added texture and flavor. A nutritious and delicious way to start your day."
+        },
+        {
+          "slug": "smoked-salmon-bagel",
+          "recipe-image": "smoked-salmon-bagel.jpg",
+          "name": "Smoked Salmon Bagel",
+          "description": "Treat yourself to a luxurious breakfast with a classic smoked salmon bagel.",
+          "ingredients": [
+            "1 everything bagel, sliced and toasted",
+            "4 ounces smoked salmon",
+            "4 ounces cream cheese",
+            "Red onion, thinly sliced",
+            "Capers for garnish",
+            "Fresh dill for garnish"
+          ],
+          "recipe": "Spread cream cheese on toasted bagel halves. Top with smoked salmon, thinly sliced red onion, and capers. Garnish with fresh dill for a delightful and indulgent breakfast experience."
+        },
+        {
+          "slug": "banana-nut-muffins",
+          "recipe-image": "banana-nut-muffins.jpg",
+          "name": "Banana Nut Muffins",
+          "description": "Enjoy the perfect balance of sweetness and crunch with these banana nut muffins.",
+          "ingredients": [
+            "2 cups all-purpose flour",
+            "1 teaspoon baking soda",
+            "1/2 teaspoon salt",
+            "1/2 cup unsalted butter, softened",
+            "1 cup granulated sugar",
+            "2 large eggs",
+            "3 ripe bananas, mashed",
+            "1 teaspoon vanilla extract",
+            "1/2 cup chopped nuts (walnuts or pecans)"
+          ],
+          "recipe": "In a bowl, whisk together flour, baking soda, and salt. In another bowl, cream together butter and sugar. Add eggs, mashed bananas, and vanilla extract. Gradually add the dry ingredients and fold in chopped nuts. Spoon the batter into muffin cups and bake until golden brown. A delightful breakfast treat."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "main-dishes",
+      "concept": "Main Dishes",
+      "recipes": [
+        {
+          "slug": "beef-wellington",
+          "recipe-image": "beef-wellington.jpg",
+          "name": "Beef Wellington",
+          "description": "Impress your guests with the classic and elegant Beef Wellington.",
+          "ingredients": [
+            "2 lbs beef tenderloin",
+            "2 tablespoons Dijon mustard",
+            "8 ounces cremini mushrooms, finely chopped",
+            "2 cloves garlic, minced",
+            "1/4 cup fresh parsley, chopped",
+            "Puff pastry sheets",
+            "Egg wash (1 beaten egg with a splash of water)"
+          ],
+          "recipe": "Season beef tenderloin with salt and pepper. Sear on all sides until browned. Brush with Dijon mustard. Sauté mushrooms and garlic until moisture evaporates. Roll out puff pastry, spread mushroom mixture, and place beef. Wrap and seal. Brush with egg wash. Bake until golden brown. Let it rest before slicing."
+        },
+        {
+          "slug": "lobster-thermidor",
+          "recipe-image": "lobster-thermidor.jpg",
+          "name": "Lobster Thermidor",
+          "description": "Indulge in luxury with this decadent Lobster Thermidor dish.",
+          "ingredients": [
+            "2 lobsters, cooked and meat removed",
+            "1/4 cup butter",
+            "1/4 cup all-purpose flour",
+            "1 cup milk",
+            "1/4 cup dry white wine",
+            "1/2 cup Gruyère cheese, grated",
+            "1/4 cup Parmesan cheese, grated",
+            "Fresh parsley for garnish"
+          ],
+          "recipe": "Melt butter in a saucepan, stir in flour to make a roux. Add milk gradually, stirring constantly. Add white wine, Gruyère, and Parmesan. Cook until thickened. Add lobster meat to the sauce. Spoon mixture into lobster shells. Broil until golden and bubbly. Garnish with fresh parsley."
+        },
+        {
+          "slug": "chicken-marsala",
+          "recipe-image": "chicken-marsala.jpg",
+          "name": "Chicken Marsala",
+          "description": "Enjoy the rich and savory flavors of Chicken Marsala for a comforting meal.",
+          "ingredients": [
+            "4 boneless, skinless chicken breasts",
+            "1 cup all-purpose flour",
+            "Salt and pepper to taste",
+            "4 tablespoons olive oil",
+            "8 ounces cremini mushrooms, sliced",
+            "1 cup Marsala wine",
+            "1 cup chicken broth",
+            "2 tablespoons unsalted butter",
+            "Fresh parsley for garnish"
+          ],
+          "recipe": "Season chicken breasts with salt and pepper. Dredge in flour. Sauté in olive oil until golden. Remove chicken. Sauté mushrooms. Deglaze with Marsala wine. Add chicken broth and return chicken to the pan. Simmer until chicken is cooked. Finish with butter and garnish with fresh parsley."
+        },
+        {
+          "slug": "vegetarian-lasagna",
+          "recipe-image": "vegetarian-lasagna.jpg",
+          "name": "Vegetarian Lasagna",
+          "description": "Savor the layers of goodness in this hearty and flavorful Vegetarian Lasagna.",
+          "ingredients": [
+            "9 lasagna noodles, cooked",
+            "2 cups ricotta cheese",
+            "1 egg",
+            "2 cups spinach, chopped",
+            "2 cups mushrooms, sliced",
+            "2 cups marinara sauce",
+            "2 cups mozzarella cheese, shredded",
+            "1/2 cup Parmesan cheese, grated",
+            "Fresh basil for garnish"
+          ],
+          "recipe": "In a bowl, mix ricotta cheese with egg. In a baking dish, layer lasagna noodles, ricotta mixture, spinach, mushrooms, marinara sauce, and mozzarella. Repeat layers. Top with Parmesan. Bake until bubbly and golden. Garnish with fresh basil before serving."
+        },
+        {
+          "slug": "salmon-en-croute",
+          "recipe-image": "salmon-en-croute.jpg",
+          "name": "Salmon en Croûte",
+          "description": "Delight in the elegance of Salmon en Croûte, a dish encased in flaky puff pastry.",
+          "ingredients": [
+            "2 lbs salmon fillets",
+            "Salt and pepper to taste",
+            "1/4 cup Dijon mustard",
+            "1/4 cup fresh dill, chopped",
+            "Puff pastry sheets",
+            "Egg wash (1 beaten egg with a splash of water)",
+            "Lemon wedges for serving"
+          ],
+          "recipe": "Season salmon fillets with salt and pepper. Brush with Dijon mustard and sprinkle with fresh dill. Roll out puff pastry, place salmon, and seal. Brush with egg wash. Bake until pastry is golden. Serve with lemon wedges for a touch of brightness."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "slug": "appetizers",
+      "concept": "Appetizers",
+      "recipes": [
+        {
+          "slug": "stuffed-mushrooms",
+          "recipe-image": "stuffed-mushrooms.jpg",
+          "name": "Stuffed Mushrooms",
+          "description": "Delight your guests with these savory stuffed mushrooms, a perfect appetizer.",
+          "ingredients": [
+            "24 large mushrooms, cleaned and stems removed",
+            "1/2 cup breadcrumbs",
+            "1/2 cup Parmesan cheese, grated",
+            "2 cloves garlic, minced",
+            "2 tablespoons fresh parsley, chopped",
+            "Olive oil for drizzling"
+          ],
+          "recipe": "Preheat oven to 375°F. Arrange mushrooms on a baking sheet. In a bowl, mix breadcrumbs, Parmesan, garlic, and parsley. Stuff each mushroom with the mixture. Drizzle with olive oil. Bake until mushrooms are tender and the top is golden brown."
+        },
+        {
+          "slug": "shrimp-cocktail",
+          "recipe-image": "shrimp-cocktail.jpg",
+          "name": "Shrimp Cocktail",
+          "description": "Elevate your appetizer game with this classic and refreshing Shrimp Cocktail.",
+          "ingredients": [
+            "1 lb large shrimp, peeled and deveined",
+            "1 lemon, sliced",
+            "Cocktail sauce: 1 cup ketchup, 2 tablespoons horseradish, 1 tablespoon lemon juice",
+            "Fresh parsley for garnish"
+          ],
+          "recipe": "Boil shrimp until pink and opaque. Chill in ice water. Arrange shrimp on a serving platter with lemon slices. Mix ketchup, horseradish, and lemon juice for the cocktail sauce. Garnish with fresh parsley. Serve with the sauce on the side."
+        },
+        {
+          "slug": "spanakopita",
+          "recipe-image": "spanakopita.jpg",
+          "name": "Spanakopita",
+          "description": "Transport your taste buds to Greece with these delightful spinach and feta pastry triangles.",
+          "ingredients": [
+            "1 package phyllo dough, thawed",
+            "1/2 cup unsalted butter, melted",
+            "1 onion, finely chopped",
+            "2 cloves garlic, minced",
+            "10 ounces spinach, chopped",
+            "1 cup feta cheese, crumbled",
+            "1/4 cup fresh dill, chopped",
+            "Salt and pepper to taste"
+          ],
+          "recipe": "Preheat oven to 375°F. Sauté onions and garlic until soft. Add spinach and cook until wilted. Remove from heat and stir in feta, dill, salt, and pepper. Lay out phyllo sheets, brush with melted butter, and layer. Spoon spinach mixture onto one end and fold into triangles. Bake until golden brown."
+        },
+        {
+          "slug": "caprese-skewers",
+          "recipe-image": "caprese-skewers.jpg",
+          "name": "Caprese Skewers",
+          "description": "Refresh your palate with these simple and elegant Caprese Skewers.",
+          "ingredients": [
+            "Cherry tomatoes",
+            "Fresh mozzarella balls",
+            "Fresh basil leaves",
+            "Balsamic glaze for drizzling",
+            "Salt and pepper to taste"
+          ],
+          "recipe": "Thread a cherry tomato, a mozzarella ball, and a basil leaf onto each skewer. Arrange on a serving platter. Drizzle with balsamic glaze. Sprinkle with salt and pepper. A delightful appetizer that celebrates the flavors of Italy."
+        },
+        {
+          "slug": "deviled-eggs",
+          "recipe-image": "deviled-eggs.jpg",
+          "name": "Deviled Eggs",
+          "description": "Add a touch of sophistication to your appetizer spread with these classic Deviled Eggs.",
+          "ingredients": [
+            "6 hard-boiled eggs, peeled and halved",
+            "3 tablespoons mayonnaise",
+            "1 teaspoon Dijon mustard",
+            "1 teaspoon white wine vinegar",
+            "Salt and pepper to taste",
+            "Paprika for garnish"
+          ],
+          "recipe": "Remove yolks from halved eggs and mash in a bowl. Add mayonnaise, Dijon mustard, white wine vinegar, salt, and pepper. Spoon or pipe the mixture back into the egg whites. Sprinkle with paprika for a finishing touch."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "slug": "side-dishes",
+      "concept": "Side Dishes",
+      "recipes": [
+        {
+          "slug": "garlic-parmesan-roasted-broccoli",
+          "recipe-image": "garlic-parmesan-roasted-broccoli.jpg",
+          "name": "Garlic Parmesan Roasted Broccoli",
+          "description": "Elevate your meal with this simple and flavorful garlic parmesan roasted broccoli.",
+          "ingredients": [
+            "4 cups broccoli florets",
+            "3 tablespoons olive oil",
+            "4 cloves garlic, minced",
+            "1/4 cup grated Parmesan cheese",
+            "Salt and black pepper to taste",
+            "Lemon wedges for serving"
+          ],
+          "recipe": "Preheat oven to 425°F. Toss broccoli with olive oil, minced garlic, Parmesan cheese, salt, and black pepper. Spread on a baking sheet. Roast until broccoli is tender and edges are crispy. Squeeze fresh lemon juice before serving for a burst of brightness."
+        },
+        {
+          "slug": "loaded-baked-potato-casserole",
+          "recipe-image": "loaded-baked-potato-casserole.jpg",
+          "name": "Loaded Baked Potato Casserole",
+          "description": "Create a crowd-pleasing side with this indulgent loaded baked potato casserole.",
+          "ingredients": [
+            "5 lbs russet potatoes, peeled and diced",
+            "1/2 cup unsalted butter, melted",
+            "1 cup sour cream",
+            "2 cups shredded cheddar cheese",
+            "1/2 cup chopped green onions",
+            "1/2 cup cooked bacon, crumbled",
+            "Salt and black pepper to taste"
+          ],
+          "recipe": "Preheat oven to 350°F. Boil diced potatoes until tender. Mash with melted butter, sour cream, cheddar cheese, green onions, and bacon. Season with salt and black pepper. Transfer to a baking dish. Bake until the top is golden and bubbly."
+        },
+        {
+          "slug": "quinoa-salad",
+          "recipe-image": "quinoa-salad.jpg",
+          "name": "Quinoa Salad with Veggies",
+          "description": "Enjoy a refreshing and nutritious quinoa salad packed with colorful veggies.",
+          "ingredients": [
+            "1 cup quinoa, cooked and cooled",
+            "1 cucumber, diced",
+            "1 bell pepper, diced",
+            "1 cup cherry tomatoes, halved",
+            "1/2 cup feta cheese, crumbled",
+            "1/4 cup red onion, finely chopped",
+            "2 tablespoons olive oil",
+            "Juice of 1 lemon",
+            "Fresh parsley for garnish",
+            "Salt and black pepper to taste"
+          ],
+          "recipe": "In a large bowl, combine cooked quinoa, cucumber, bell pepper, cherry tomatoes, feta cheese, and red onion. In a small bowl, whisk together olive oil, lemon juice, salt, and black pepper. Drizzle over the salad and toss to combine. Garnish with fresh parsley before serving."
+        },
+        {
+          "slug": "sweet-potato-wedges",
+          "recipe-image": "sweet-potato-wedges.jpg",
+          "name": "Baked Sweet Potato Wedges",
+          "description": "Satisfy your cravings with these baked sweet potato wedges, a healthier alternative to fries.",
+          "ingredients": [
+            "3 large sweet potatoes, cut into wedges",
+            "3 tablespoons olive oil",
+            "1 teaspoon paprika",
+            "1/2 teaspoon garlic powder",
+            "1/2 teaspoon cumin",
+            "Salt and black pepper to taste",
+            "Cilantro for garnish"
+          ],
+          "recipe": "Preheat oven to 425°F. In a bowl, toss sweet potato wedges with olive oil, paprika, garlic powder, cumin, salt, and black pepper. Spread on a baking sheet. Bake until golden and crispy. Garnish with chopped cilantro before serving."
+        },
+        {
+          "slug": "creamy-mashed-cauliflower",
+          "recipe-image": "creamy-mashed-cauliflower.jpg",
+          "name": "Creamy Mashed Cauliflower",
+          "description": "Swap traditional mashed potatoes with this creamy and flavorful mashed cauliflower.",
+          "ingredients": [
+            "1 head cauliflower, cut into florets",
+            "2 cloves garlic, minced",
+            "1/4 cup unsalted butter",
+            "1/4 cup cream cheese",
+            "1/4 cup grated Parmesan cheese",
+            "Salt and black pepper to taste",
+            "Chives for garnish"
+          ],
+          "recipe": "Steam cauliflower until tender. In a food processor, blend cauliflower, minced garlic, butter, cream cheese, and Parmesan until smooth. Season with salt and black pepper. Garnish with chopped chives before serving."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "slug": "desserts",
+      "concept": "Desserts",
+      "recipes": [
+        {
+          "slug": "chocolate-mousse",
+          "recipe-image": "chocolate-mousse.jpg",
+          "name": "Chocolate Mousse",
+          "description": "Indulge your sweet tooth with this velvety and rich chocolate mousse.",
+          "ingredients": [
+            "8 ounces dark chocolate, chopped",
+            "1/2 cup unsalted butter",
+            "1/4 cup granulated sugar",
+            "4 large eggs, separated",
+            "1 teaspoon vanilla extract",
+            "Pinch of salt",
+            "Whipped cream and chocolate shavings for garnish"
+          ],
+          "recipe": "Melt dark chocolate and butter in a heatproof bowl over simmering water. Stir in sugar until dissolved. Remove from heat and let it cool slightly. Whisk in egg yolks and vanilla extract. In a separate bowl, whip egg whites with salt until stiff peaks form. Gently fold the egg whites into the chocolate mixture. Spoon into serving glasses and refrigerate until set. Garnish with whipped cream and chocolate shavings before serving."
+        },
+        {
+          "slug": "lemon-blueberry-cheesecake-bars",
+          "recipe-image": "lemon-blueberry-cheesecake-bars.jpg",
+          "name": "Lemon Blueberry Cheesecake Bars",
+          "description": "Delight in the perfect balance of tartness and sweetness with these cheesecake bars.",
+          "ingredients": [
+            "For the crust:",
+            "1 1/2 cups graham cracker crumbs",
+            "1/2 cup unsalted butter, melted",
+            "1/4 cup granulated sugar",
+            "For the filling:",
+            "16 ounces cream cheese, softened",
+            "1 cup granulated sugar",
+            "3 large eggs",
+            "1 teaspoon vanilla extract",
+            "1 tablespoon lemon zest",
+            "1 cup fresh blueberries",
+            "Lemon glaze: 1 cup powdered sugar, 2 tablespoons lemon juice"
+          ],
+          "recipe": "Preheat oven to 325°F. Mix graham cracker crumbs, melted butter, and sugar for the crust. Press into a lined baking pan. In a bowl, beat cream cheese and sugar until smooth. Add eggs one at a time, then mix in vanilla extract and lemon zest. Fold in blueberries. Pour over the crust and bake until set. Cool and refrigerate. Mix powdered sugar and lemon juice for the glaze and drizzle over the bars before serving."
+        },
+        {
+          "slug": "tiramisu",
+          "recipe-image": "tiramisu.jpg",
+          "name": "Tiramisu",
+          "description": "Savor the classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cream.",
+          "ingredients": [
+            "1 cup strong brewed coffee, cooled",
+            "3 tablespoons coffee liqueur",
+            "3 large egg yolks",
+            "3/4 cup granulated sugar",
+            "1 cup mascarpone cheese",
+            "1 cup heavy cream",
+            "1 teaspoon vanilla extract",
+            "Ladyfinger cookies",
+            "Cocoa powder for dusting"
+          ],
+          "recipe": "Combine brewed coffee and coffee liqueur. In a bowl, whisk egg yolks and sugar until pale. Add mascarpone and mix until smooth. In a separate bowl, whip heavy cream and vanilla until stiff peaks form. Fold the whipped cream into the mascarpone mixture. Dip ladyfingers into the coffee mixture and layer in a serving dish. Spread half of the mascarpone mixture over the ladyfingers. Repeat layers and refrigerate. Dust with cocoa powder before serving."
+        },
+        {
+          "slug": "strawberry-shortcake",
+          "recipe-image": "strawberry-shortcake.jpg",
+          "name": "Strawberry Shortcake",
+          "description": "Celebrate the sweetness of strawberries with this classic and delightful shortcake.",
+          "ingredients": [
+            "For the shortcakes:",
+            "2 cups all-purpose flour",
+            "1/4 cup granulated sugar",
+            "1 tablespoon baking powder",
+            "1/2 teaspoon salt",
+            "1/2 cup unsalted butter, cold and cubed",
+            "3/4 cup milk",
+            "For the filling:",
+            "2 cups fresh strawberries, sliced",
+            "1/4 cup granulated sugar",
+            "Whipped cream for topping"
+          ],
+          "recipe": "Preheat oven to 425°F. In a bowl, whisk together flour, sugar, baking powder, and salt. Cut in cold butter until the mixture resembles coarse crumbs. Stir in milk until just combined. Drop spoonfuls of dough onto a baking sheet and bake until golden brown. Toss sliced strawberries with sugar. Split the shortcakes, fill with strawberries, and top with whipped cream."
+        },
+        {
+          "slug": "molten-chocolate-lava-cakes",
+          "recipe-image": "molten-chocolate-lava-cakes.jpg",
+          "name": "Molten Chocolate Lava Cakes",
+          "description": "Indulge in the irresistible gooey center of these decadent molten chocolate lava cakes.",
+          "ingredients": [
+            "1/2 cup unsalted butter",
+            "4 ounces dark chocolate, chopped",
+            "1 cup powdered sugar",
+            "2 large eggs",
+            "2 egg yolks",
+            "1 teaspoon vanilla extract",
+            "1/4 cup all-purpose flour",
+            "Vanilla ice cream for serving"
+          ],
+          "recipe": "Preheat oven to 425°F. Grease and flour ramekins. Melt butter and dark chocolate together. Stir in powdered sugar. Add eggs and egg yolks one at a time, then mix in vanilla extract. Fold in flour until just combined. Divide batter among ramekins. Bake for 12-14 minutes. Let them cool for a minute before inverting onto plates. Serve with a scoop of vanilla ice cream."
+        }
+      ]
+    }
+  ]
+}
