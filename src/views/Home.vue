@@ -5,10 +5,12 @@
     </div>
     <div class="carousel-inner" style="max-height: 600px; overflow: hidden;">
       <div v-for="concept in concepts" :class="parseInt(concept.id) == 1 ? 'carousel-item active' : 'carousel-item'">
-        <img :src="`public/images/${concept.slug}.jpg`" style="object-fit: cover;"/>
+        <img :src="`public/images/${concept.slug}.jpg`" style="object-fit: cover"/>
         <div class="carousel-caption d-none d-md-block" :style="{ top: captionStyle }">
-          <h5 :style="{backgroundColor: captionBackground}">{{concept.concept}}</h5>
-          <p :style="{backgroundColor: captionBackground}">{{ concept.description }}</p>
+          <div class="d-inline-flex">
+            <h3 class="jumbotext-bg rounded p-3" style="width: min-content;">{{concept.concept}}</h3>
+          </div>
+          <p class="jumbotext-bg rounded p-1" >{{ concept.description }}</p>
         </div>
       </div>
     </div>
@@ -36,3 +38,10 @@ export default {
   },
 };
 </script>
+
+<style>
+  .jumbotext-bg {
+      background-color: rgba(115, 255, 0, 0.811);
+      color: black;
+    }
+</style>
