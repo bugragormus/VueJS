@@ -1,30 +1,17 @@
 <template>
+  <!-- SİLİNECEK ALT SATIR -->
+  <!-- <img v-for="concept in concepts" :src="`/public/images/${concept.slug}.jpg`" style="max-height: 600px; overflow: hidden;"  /> -->
+
   <div id="carouselExampleCaptions" class="carousel slide">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button v-for="concept in concepts" type="button" data-bs-target="#carouselExampleCaptions" :class="parseInt(concept.id) == 1 ? 'active' : null" :arica-current="parseInt(concept.id) == 1 ? true : null" :data-bs-slide-to="concept.id-1"  :aria-label="`Slide ${concept.id}`"></button>
     </div>
     <div class="carousel-inner" style="max-height: 600px; overflow: hidden;">
-      <div class="carousel-item active">
-        <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="d-block w-100" alt="...">
+      <div v-for="concept in concepts" :class="parseInt(concept.id) == 1 ? 'carousel-item active' : 'carousel-item'">
+        <img :src="`public/images/${concept.slug}.jpg`" style="object-fit: fill; height: 600px;"/>
         <div class="carousel-caption d-none d-md-block" :style="{ top: captionStyle }">
-          <h5 :style="{backgroundColor: captionBackground}">First slide label</h5>
-          <p :style="{backgroundColor: captionBackground}">Some representative placeholder content for the first slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block" :style="{ top: captionStyle }">
-          <h5 :style="{backgroundColor: captionBackground}">Second slide label</h5>
-          <p :style="{backgroundColor: captionBackground}">Some representative placeholder content for the second slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block" :style="{ top: captionStyle }">
-          <h5 :style="{backgroundColor: captionBackground}">Third slide label</h5>
-          <p :style="{backgroundColor: captionBackground}">Some representative placeholder content for the third slide.</p>
+          <h5 :style="{backgroundColor: captionBackground}">{{concept.concept}}</h5>
+          <p :style="{backgroundColor: captionBackground}">{{ concept.description }}</p>
         </div>
       </div>
     </div>
@@ -40,13 +27,20 @@
 </template>
 
 <script>
+import sourceData from '@/data.json'
 export default {
   name: "Home",
   data() {
     return {
       captionStyle: "20px",
       captionBackground: 'rgba(0, 0, 0, 0.5)',
+      concepts : sourceData.concepts,
     };
   },
+  computed : {
+    setCarouselClass(i){
+      return parseInt(i) == 0 ? 'active' : ''; 
+    }
+  }
 };
 </script>
