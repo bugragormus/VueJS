@@ -1,4 +1,5 @@
 <template>
+  <!-- Concept Header Start -->
   <div
   class="bg-image p-5 text-center shadow-1-strong mb-5 text-white"
   :style="`background-image: url(/public/images/${selectedConcept.slug}.jpg); background-size:cover; background-position:center;`"
@@ -10,18 +11,35 @@
     {{ selectedConcept.description }}
   </p>
 </div>
+<!-- Concept Header End -->
 
+<!-- Recipes Start -->
 
-
-
-
-
-
-
-
-
-
-
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col" v-for="(recipe,index) in selectedConcept.recipes" :key="index">
+      <RouterLink :to="`/detail/${selectedConcept.id}/${recipe.slug}`">
+        <div class="card">
+          <img
+              :src="`/public/images/${recipe.slug}.jpg`"
+              class="card-img-top image-fluid"
+              alt="..."
+              style="object-fit: cover;"
+          />
+          <div class="card-body">
+            <h5 class="card-title ">{{ recipe.name }}</h5>
+            <p class="card-text description">
+                {{
+                  recipe.description
+                }}
+              </p>
+          </div>
+        </div>
+      </RouterLink>
+    </div>
+  </div>
+</div>
+<!-- Recipes End -->
 
 </template>
 
