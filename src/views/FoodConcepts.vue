@@ -1,6 +1,7 @@
 <template>
   <div class="container">
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+    <h1 class="py-5"> <u>Food Concepts</u></h1>
+    <div class="row row-cols-1 row-cols-md-4 g-4">
 
       <div class="col" v-for="concept in concepts" :key="concept.id">
 
