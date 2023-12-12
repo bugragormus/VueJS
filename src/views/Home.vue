@@ -1,14 +1,11 @@
 <template>
-  <!-- SİLİNECEK ALT SATIR -->
-  <!-- <img v-for="concept in concepts" :src="`/public/images/${concept.slug}.jpg`" style="max-height: 600px; overflow: hidden;"  /> -->
-
   <div id="carouselExampleCaptions" class="carousel slide">
     <div class="carousel-indicators">
       <button v-for="concept in concepts" type="button" data-bs-target="#carouselExampleCaptions" :class="parseInt(concept.id) == 1 ? 'active' : null" :arica-current="parseInt(concept.id) == 1 ? true : null" :data-bs-slide-to="concept.id-1"  :aria-label="`Slide ${concept.id}`"></button>
     </div>
     <div class="carousel-inner" style="max-height: 600px; overflow: hidden;">
       <div v-for="concept in concepts" :class="parseInt(concept.id) == 1 ? 'carousel-item active' : 'carousel-item'">
-        <img :src="`public/images/${concept.slug}.jpg`" style="object-fit: fill; height: 600px;"/>
+        <img :src="`public/images/${concept.slug}.jpg`" style="object-fit: cover;"/>
         <div class="carousel-caption d-none d-md-block" :style="{ top: captionStyle }">
           <h5 :style="{backgroundColor: captionBackground}">{{concept.concept}}</h5>
           <p :style="{backgroundColor: captionBackground}">{{ concept.description }}</p>
@@ -37,10 +34,5 @@ export default {
       concepts : sourceData.concepts,
     };
   },
-  computed : {
-    setCarouselClass(i){
-      return parseInt(i) == 0 ? 'active' : ''; 
-    }
-  }
 };
 </script>
