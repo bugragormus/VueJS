@@ -5,13 +5,15 @@
     </div>
     <div class="carousel-inner" style="max-height: 600px; overflow: hidden;">
       <div v-for="concept in concepts" :class="parseInt(concept.id) == 1 ? 'carousel-item active' : 'carousel-item'">
-        <img :src="`public/images/${concept.slug}.jpg`" style="object-fit: cover"/>
-        <div class="carousel-caption d-none d-md-block" :style="{ top: captionStyle }">
-          <div class="d-inline-flex">
-            <h3 class="jumbotext-bg rounded p-3" style="width: min-content;">{{concept.concept}}</h3>
+        <RouterLink :to="`/detail/${concept.id}`">
+          <img :src="`public/images/${concept.slug}.jpg`" style="object-fit: cover"/>
+          <div class="carousel-caption d-none d-md-block" :style="{ top: captionStyle }">
+            <div class="d-inline-flex">
+              <h3 class="jumbotext-bg rounded p-3" style="width: min-content;">{{concept.concept}}</h3>
+            </div>
+            <p class="jumbotext-bg rounded p-1" >{{ concept.description }}</p>
           </div>
-          <p class="jumbotext-bg rounded p-1" >{{ concept.description }}</p>
-        </div>
+        </RouterLink>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -27,15 +29,17 @@
 
 <script>
 import sourceData from '@/data.json'
+import { RouterLink } from 'vue-router';
 export default {
-  name: "Home",
-  data() {
-    return {
-      captionStyle: "20px",
-      captionBackground: 'rgba(0, 0, 0, 0.5)',
-      concepts : sourceData.concepts,
-    };
-  },
+    name: "Home",
+    data() {
+        return {
+            captionStyle: "20px",
+            captionBackground: 'rgba(0, 0, 0, 0.5)',
+            concepts: sourceData.concepts,
+        };
+    },
+    components: { RouterLink }
 };
 </script>
 
