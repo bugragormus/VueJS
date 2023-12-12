@@ -4,7 +4,7 @@
       "id": 1,
       "slug": "christmas-dishes",
       "concept": "Christmas Dishes",
-      "concept-description" : "Unveil the splendor of the holiday season with sumptuous Christmas dishes, where recipes transcend the ordinary, creating a feast that not only satisfies the palate but also captivates with festive elegance.",
+      "description" : "Unveil the splendor of the holiday season with sumptuous Christmas dishes, where recipes transcend the ordinary, creating a feast that not only satisfies the palate but also captivates with festive elegance.",
       "recipes": [
         {
           "slug": "roasted-turkey",
@@ -88,7 +88,7 @@
       "id": 2,
       "slug": "valentines-day-specials",
       "concept": "Valentine's Day Specials",
-      "concept-description" : "Elevate romance with Valentine's Day specials, featuring decadent dishes that ignite passion, from intimate dinners with luscious filet mignon to sweet endings with chocolate-dipped strawberries, crafting an unforgettable culinary experience for the day of love.",
+      "description" : "Elevate romance with Valentine's Day specials, featuring decadent dishes that ignite passion, from intimate dinners with luscious filet mignon to sweet endings with chocolate-dipped strawberries, crafting an unforgettable culinary experience for the day of love.",
       "recipes": [
         {
           "slug": "chocolate-covered-strawberries",
@@ -172,7 +172,7 @@
       "id": 3,
       "slug": "iftar-meals",
       "concept": "Iftar Meals",
-      "concept-description" : "Break your fast with nourishing iftar meals, where dates and water initiate a tradition followed by a spread of wholesome dishes, embracing the spirit of togetherness and gratitude during the holy month of Ramadan.",
+      "description" : "Break your fast with nourishing iftar meals, where dates and water initiate a tradition followed by a spread of wholesome dishes, embracing the spirit of togetherness and gratitude during the holy month of Ramadan.",
       "recipes": [
         {
           "slug": "iftar-platter",
@@ -268,7 +268,7 @@
       "id": 4,
       "slug": "exotic-dishes",
       "concept": "Exotic Dishes",
-      "concept-description" : "Embark on a culinary adventure with exotic dishes, where vibrant flavors and unique ingredients transport your taste buds to distant lands, creating a sensory experience that transcends the ordinary.",
+      "description" : "Embark on a culinary adventure with exotic dishes, where vibrant flavors and unique ingredients transport your taste buds to distant lands, creating a sensory experience that transcends the ordinary.",
       "recipes": [
         {
           "slug": "coconut-curry-chicken",
@@ -360,7 +360,7 @@
       "id": 5,
       "slug": "breakfast-delights",
       "concept": "Breakfast Delights",
-      "concept-description" : "Start your day with breakfast delights that go beyond the ordinary, from fluffy pancakes drizzled with maple syrup to perfectly poached eggs atop avocado toast, transforming the morning routine into a delicious and energizing experience.",
+      "description" : "Start your day with breakfast delights that go beyond the ordinary, from fluffy pancakes drizzled with maple syrup to perfectly poached eggs atop avocado toast, transforming the morning routine into a delicious and energizing experience.",
       "recipes": [
         {
           "slug": "classic-pancakes",
@@ -445,7 +445,7 @@
       "id": 6,
       "slug": "main-dishes",
       "concept": "Main Dishes",
-      "concept-description" : "Savor the essence of culinary craftsmanship with main dishes that are a symphony of flavors, where succulent meats, flavorful sauces, and artfully paired sides come together to create a dining experience that delights the palate and satisfies the soul.",
+      "description" : "Savor the essence of culinary craftsmanship with main dishes that are a symphony of flavors, where succulent meats, flavorful sauces, and artfully paired sides come together to create a dining experience that delights the palate and satisfies the soul.",
       "recipes": [
         {
           "slug": "beef-wellington",
@@ -538,7 +538,7 @@
       "id": 7,
       "slug": "appetizers",
       "concept": "Appetizers",
-      "concept-description" : "Whet your appetite with tantalizing appetizers, where a medley of flavors and textures dance on the taste buds, setting the stage for a culinary journey that promises both excitement and anticipation.",
+      "description" : "Whet your appetite with tantalizing appetizers, where a medley of flavors and textures dance on the taste buds, setting the stage for a culinary journey that promises both excitement and anticipation.",
       "recipes": [
         {
           "slug": "stuffed-mushrooms",
@@ -620,7 +620,7 @@
       "id": 8,
       "slug": "side-dishes",
       "concept": "Side Dishes",
-      "concept-description" : "Elevate your dining experience with side dishes that complement and enhance the main course, offering a symphony of flavors and textures to complete the culinary ensemble with finesse and flair.",
+      "description" : "Elevate your dining experience with side dishes that complement and enhance the main course, offering a symphony of flavors and textures to complete the culinary ensemble with finesse and flair.",
       "recipes": [
         {
           "slug": "garlic-parmesan-roasted-broccoli",
@@ -710,7 +710,7 @@
       "id": 9,
       "slug": "desserts",
       "concept": "Desserts",
-      "concept-description" : "Indulge your sweet tooth with delectable desserts, where each bite is a symphony of sweetness and texture, culminating in a delightful finale to your dining experience.",
+      "description" : "Indulge your sweet tooth with delectable desserts, where each bite is a symphony of sweetness and texture, culminating in a delightful finale to your dining experience.",
       "recipes": [
         {
           "slug": "chocolate-mousse",
