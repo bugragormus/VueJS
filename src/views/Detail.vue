@@ -5,7 +5,7 @@
   :style="`background-image: url(/public/images/${selectedConcept.slug}.jpg); background-size:cover; background-position:center;`"
 >
   <div class="d-inline-flex">
-    <h1 class="mb-3 jumbotext-bg rounded p-3" style="width: min-content;">{{ selectedConcept.concept }}</h1>
+    <h1 class="mb-3 jumbotext-bg rounded p-3" style="text-transform: uppercase; font-weight: bolder;">{{ selectedConcept.concept }}</h1>
   </div>
   <p class="lead jumbotext-bg rounded p-1">
     {{ selectedConcept.description }}
@@ -16,7 +16,7 @@
 <!-- Recipes Start -->
 
 <div class="container">
-  <div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col" v-for="(recipe,index) in selectedConcept.recipes" :key="index">
       <RouterLink :to="`/detail/${selectedConcept.id}/${recipe.slug}`">
         <div class="card">
@@ -24,7 +24,7 @@
               :src="`/public/images/${recipe.slug}.jpg`"
               class="card-img-top image-fluid"
               alt="..."
-              style="object-fit: cover;"
+              style="object-fit: cover; max-height: 200px"
           />
           <div class="card-body">
             <h5 class="card-title ">{{ recipe.name }}</h5>
@@ -65,9 +65,8 @@
 <style>
 
   .jumbotext-bg {
-    background-color: rgba(0, 255, 255, 0.811);
-    color: black;
-    text-decoration: black;
+    background-color: rgba(255, 255, 204, 0.8);
+    color: darkmagenta;
   }
 
 </style>

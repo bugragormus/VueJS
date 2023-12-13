@@ -1,17 +1,17 @@
 <template>
   <div class="container">
     <h1 class="py-5"> <u>Food Concepts</u></h1>
-    <div class="row row-cols-1 row-cols-md-4 g-4">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
 
       <div class="col" v-for="concept in concepts" :key="concept.id">
 
         <RouterLink :to="`/detail/${concept.id}`">
-          <div class="card" style="width: 600px; max-height: 600px;">
+          <div class="card border-success border-2" style="width: 600px; max-height: 600px;">
             <img
                 :src="`/public/images/${concept.slug}.jpg`"
                 class="card-img-top image-fluid"
                 alt="..."
-                style="object-fit: cover;"
+                style="object-fit: cover; max-height: 170px"
             />
             <div class="card-body">
               <h5 class="card-title ">{{ concept.concept }}</h5>

@@ -7,7 +7,7 @@ const routes = [
     { path: "/detail/:id", component: ()=>import("@/views/Detail.vue") },
     { path: "/food-concepts", component: ()=>import("@/views/FoodConcepts.vue") },
     { path: "/detail/:id/:slug", component: ()=>import("@/views/RecipeDetail.vue") },
-    //{ path: "/404", component: ()=>import("@/views/RecipeDetail.vue") },
+    { path: "/404", component: ()=>import("@/views/NotFound.vue") },
     //{ path: "/all-recipes", component: ()=>import("@/views/RecipeDetail.vue") },
 ];
 
