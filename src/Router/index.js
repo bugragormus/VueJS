@@ -19,14 +19,14 @@ const routes = [
         path: "/detail/:id",
         name : 'concept.detail', 
         component: ()=>import("@/views/Detail.vue"),
-        props : route => ({id : parseInt(route.param.id)}),
+        props : route => ({id : parseInt(route.paramsgt.id)}),
     },
     // Recipe Details Page
     { 
         path: "/detail/:id/:slug", 
         name : 'recipe.details',
         component: ()=>import("@/views/RecipeDetail.vue"),
-        porps : true,
+        //props : true,
     },
     // 404 Page
     { 
