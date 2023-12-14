@@ -1,4 +1,5 @@
 <template>
+  <GoBack/>
   <!-- Concept Header Start -->
   <div
   class="bg-image p-5 text-center shadow-1-strong mb-5 text-white"
@@ -45,6 +46,7 @@
 
 <script>
   import sourceData from '@/data.json'
+  import GoBack from '@/components/GoBack.vue'
   export default {
     props : {
       id: {
@@ -61,10 +63,8 @@
         return sourceData.concepts.find( concept => concept.id === this.id);
       }
     },
-    data(){
-      return {
-        
-      }
+    components : {
+      GoBack,
     },
   };
 </script>

@@ -1,5 +1,6 @@
 <template>
   <!-- Recipe Header Start -->
+  <GoBack/>
   <div id="recipe-header"
        class="bg-image p-5 text-center shadow-1-strong mb-5 text-white"
        :style="`background-image: url(/public/images/${selectedRecipe.slug}.jpg); background-size:cover; background-position:center;`"
@@ -45,7 +46,7 @@
 
 <script>
 import sourceData from '@/data.json';
-
+import GoBack from '@/components/GoBack.vue';
 export default {
   props : {
     id : {
@@ -65,5 +66,8 @@ export default {
       return this.selectedConcept.recipes.find(recipe => recipe.slug === this.slug);
     }
   },
+  components : {
+    GoBack,
+  }
 }
 </script>
