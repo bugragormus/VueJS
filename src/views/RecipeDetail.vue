@@ -47,22 +47,26 @@
 import sourceData from '@/data.json';
 
 export default {
-  data() {
-
-  },
-  computed: {
-    conceptId() {
-      return parseInt(this.$route.params.id);
+  props : {
+    id : {
+      type : Number,
+      required : true,
     },
-    recipeSlug() {
-      return this.$route.params.slug;
-    },
-    selectedConcept() {
-      return sourceData.concepts.find(concept => concept.id === this.conceptId);
-    },
-    selectedRecipe() {
-      return this.selectedConcept.recipes.find(recipe => recipe.slug === this.recipeSlug);
+    slug : {
+      type : String,
+      required : true,
     }
   },
+  computed: {
+    selectedConcept() {
+      return sourceData.concepts.find(concept => concept.id === this.id);
+    },
+    selectedRecipe() {
+      return this.selectedConcept.recipes.find(recipe => recipe.slug === this.slug);
+    }
+  },
+  data() {
+
+},
 }
 </script>

@@ -26,7 +26,7 @@ const routes = [
         path: "/detail/:id/:slug", 
         name : 'recipe.details',
         component: ()=>import("@/views/RecipeDetail.vue"),
-        //props : true,
+        props : route => ({ id : parseInt(route.params.id), slug : route.params.slug}),
     },
     // 404 Page
     { 
