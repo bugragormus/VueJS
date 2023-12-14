@@ -23,3 +23,20 @@ ona göre yine ayarlarız.
 - AllRecipes Page tasarımını yapmadım o yapılacak rooter yazmışsın zaten sen.
 
 - 404 tamamlanacak.
+
+------------------------------------------------------------------------------------------------------------------------
+
+ + Route guards eklendi hatalı adresler 404'e gider.
+ 
+ + Geçiş animasyonu eklendi.
+
+ + Go Back butonu eklendi.
+
+ - 404  sayfası düzenlenmeli
+ - Footer aşağıya sabitlenmeli, ancak position fixed olmamalı içerik ekran uzunluğundan fazla ise footer'ı ittirmeli, değilse footer ekran alanının en altında durmalı,
+ - Home.vue içerisinde kalan slider ortalanmalı mı? 
+ - All reciper sayası yapılmalı
+ - Brazilian feijoada ve Smoked Salmon Bagel görüntüleri bozuk
+ - Food Concepts sayasındaki genişleme efektine animasyon eklenmeli
+ - Iftar meals görüntüsü yatayda genişletilmeli ana ekranda boşluk kalıyor kenrlarda beyaz
+ - Detail ekranında herhangi bir recipe'nin üstüne gelince yanıp sönme efekti falan eklenmeli
