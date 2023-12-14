@@ -19,7 +19,7 @@ const routes = [
         path: "/detail/:id",
         name : 'concept.detail', 
         component: ()=>import("@/views/Detail.vue"),
-        props : route => ({id : parseInt(route.paramsgt.id)}),
+        props : route => ({id : parseInt(route.params.id)}),
     },
     // Recipe Details Page
     { 
