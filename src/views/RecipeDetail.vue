@@ -65,8 +65,5 @@ export default {
       return this.selectedConcept.recipes.find(recipe => recipe.slug === this.slug);
     }
   },
-  data() {
-
-},
 }
 </script>
