@@ -3,11 +3,38 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "@/views/Home.vue";
 
 const routes = [
-    { path: "/", component: Home },
-    { path: "/detail/:id", component: ()=>import("@/views/Detail.vue") },
-    { path: "/food-concepts", component: ()=>import("@/views/FoodConcepts.vue") },
-    { path: "/detail/:id/:slug", component: ()=>import("@/views/RecipeDetail.vue") },
-    { path: "/:pathMatch(.*)*", name: 'NotFound', component: ()=>import("@/views/NotFound.vue") },
+    // Home Page
+    { path: "/", 
+        component: Home,
+        name: 'Home',
+    },
+    // Concepts Page
+    { 
+        path: "/food-concepts",
+        name : 'Concepts', 
+        component: ()=>import("@/views/FoodConcepts.vue"),
+    },
+    // Concept Details Page
+    { 
+        path: "/detail/:id",
+        name : 'concept.detail', 
+        component: ()=>import("@/views/Detail.vue"),
+        props : route => ({id : parseInt(route.param.id)}),
+    },
+    // Recipe Details Page
+    { 
+        path: "/detail/:id/:slug", 
+        name : 'recipe.details',
+        component: ()=>import("@/views/RecipeDetail.vue"),
+        porps : true,
+    },
+    // 404 Page
+    { 
+        path: "/:pathMatch(.*)*", 
+        name: 'NotFound', 
+        component: ()=>import("@/views/NotFound.vue") 
+    },
+    // All Recipes Page
     //{ path: "/all-recipes", component: ()=>import("@/views/RecipeDetail.vue") },
 ];
 
