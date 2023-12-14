@@ -46,19 +46,26 @@
 <script>
   import sourceData from '@/data.json'
   export default {
+    props : {
+      id: {
+        type : Number, //router icerisinde parseInt ettim bu nedenle type Number.
+        required : true,
+      }
+    },
     computed : {
-      conceptId(){
-        return parseInt(this.$route.params.id);
-      },
+      //Artık aşağıdaki kkısma gerek yok props ekledik ve id parametresini props içerisinde aldık
+      // conceptId(){
+      //   return parseInt(this.$route.params.id);
+      // },
       selectedConcept(){
-        return sourceData.concepts.find( concept => concept.id === this.conceptId);
+        return sourceData.concepts.find( concept => concept.id === this.id);
       }
     },
     data(){
       return {
         
       }
-    }
+    },
   };
 </script>
 
