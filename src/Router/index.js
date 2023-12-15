@@ -52,7 +52,10 @@ const routes = [
         component: ()=>import("@/views/NotFound.vue") 
     },
     // All Recipes Page
-    //{ path: "/all-recipes", component: ()=>import("@/views/RecipeDetail.vue") },
+    { 
+        path: "/all-recipes", 
+        component: ()=>import("@/views/AllRecipes.vue") 
+    },
 ];
 
 const router = createRouter({
