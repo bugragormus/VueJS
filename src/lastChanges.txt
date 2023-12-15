@@ -32,11 +32,13 @@ ona göre yine ayarlarız.
 
  + Go Back butonu eklendi.
 
- - 404  sayfası düzenlenmeli
+ + 404  sayfası tasarımı düzenlenmeli
+
+ - AllRecipes sayfası yapılamlı
+
  - Footer aşağıya sabitlenmeli, ancak position fixed olmamalı içerik ekran uzunluğundan fazla ise footer'ı ittirmeli, değilse footer ekran alanının en altında durmalı,
- - Home.vue içerisinde kalan slider ortalanmalı mı? 
- - All reciper sayası yapılmalı
+ - Home.vue içerisinde kalan slider ortalanmalı mı?
  - Brazilian feijoada ve Smoked Salmon Bagel görüntüleri bozuk
  - Food Concepts sayasındaki genişleme efektine animasyon eklenmeli
  - Iftar meals görüntüsü yatayda genişletilmeli ana ekranda boşluk kalıyor kenrlarda beyaz
- - Detail ekranında herhangi bir recipe'nin üstüne gelince yanıp sönme efekti falan eklenmeli
+ - Detail ekranında herhangi bir recipe'nin üstüne gelince yanıp sönme efekti falan eklenmeli mi?
