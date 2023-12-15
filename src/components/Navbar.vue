@@ -27,6 +27,9 @@
           <li class="nav-item">
             <router-link class="nav-link text-black" to="/food-concepts">Food Concepts</router-link>
           </li>
+          <li class="nav-item">
+            <router-link class="nav-link text-black" to="/all-recipes">All Recipes</router-link>
+          </li>
         </ul>
       </div>
     </div>
