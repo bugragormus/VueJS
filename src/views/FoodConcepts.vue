@@ -5,7 +5,7 @@
 
       <div class="col" v-for="concept in concepts" :key="concept.id">
 
-        <RouterLink :to="`/detail/${concept.id}`">
+        <RouterLink class="router" :to="`/detail/${concept.id}`">
           <div class="card border-success border-2" style="width: 600px; max-height: 600px;">
             <img
                 :src="`/public/images/${concept.slug}.jpg`"
@@ -60,5 +60,9 @@ export default {
 .card-img-top {
   width: 100%;
   height: auto;
+}
+
+.router {
+  text-decoration: none;
 }
 </style>

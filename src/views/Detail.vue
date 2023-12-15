@@ -19,7 +19,7 @@
 <div class="container">
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col" v-for="(recipe,index) in selectedConcept.recipes" :key="index">
-      <RouterLink :to="`/detail/${selectedConcept.id}/${recipe.slug}`">
+      <RouterLink class="router" :to="`/detail/${selectedConcept.id}/${recipe.slug}`">
         <div class="card">
           <img
               :src="`/public/images/${recipe.slug}.jpg`"
@@ -74,6 +74,10 @@
   .jumbotext-bg {
     background-color: rgba(255, 255, 204, 0.8);
     color: darkmagenta;
+  }
+
+  .router {
+    text-decoration: none;
   }
 
 </style>
